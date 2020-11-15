@@ -1,7 +1,7 @@
 Assignment 1: Twitter Data Crawler
 Nick Milikich
 CSE 60437 Social Sensing & Cyber-Physical Systems
-February 3, 2019
+February 3, 2020
 
 This project implements three crawlers that perform various tasks related to gathering information from Twitter, and stores that information in text files. The first crawler collects profile information from users whose ID's are stored in the file IDs.dat and writes their information to Assignment1_1_output.txt. The second crawler collects social network information (the first 20 friends and followers) from users whose ID's are stored in the file IDs.dat and writes that information to Assignment1_2_output.txt. The third crawler collects the most recent 50 tweets containing one or more keywords stored in the file Keywords.dat and writes those tweets to Assignment1_3a_output.txt, and collects the most recent 50 tweets originating from the geographic location specified in Region.dat and writes those tweets to Assignment1_3b_output.txt.
 
